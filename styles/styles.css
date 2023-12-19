@@ -47,7 +47,7 @@ body {
 .hero {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 36px;
+    margin-bottom: 54px;
 }
 
 .hero-title {
@@ -81,9 +81,9 @@ button {
 .random-info {
     color: #1F2937;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 1000;
     text-align: center;
-    margin-bottom: 68px;
+    margin-bottom: 110px;
 }
 
 .cards {
@@ -106,6 +106,27 @@ button {
     border: 4px #3882F6 solid;
     border-radius: 16px;
     margin-bottom: 10px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 1000;
+    margin-left: auto;
 }
 
 .footer {
