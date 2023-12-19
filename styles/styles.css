@@ -7,14 +7,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
     padding: 12px;
 }
 
 .header-logo {
     font-weight: 900;
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .header-links {
@@ -27,7 +25,52 @@ body {
 }
 
 .header-link a {
-    font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+}
+
+.hero-title, .header-logo, button {
+    color: #F9FAF8;
+}
+
+.hero-subtext, .header-link a, .hero-img {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtext {
+    margin: 0;
+}
+
+.hero-img {
+    width: 500px;
+    height: 225px;
+    background-color: gray;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 20px;
 }
