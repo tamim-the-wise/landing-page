@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -5,57 +7,62 @@ body {
     flex-direction: column;
 }
 
-.header {
+header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 12px;
+    flex-direction: column;
+    padding: 16px 200px;
+    margin-bottom: 54px;
 }
 
-.header-logo, .action-title {
-    font-weight: 900;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navbar-logo, .action-title {
+    font-weight: 1000;
     font-size: 24px;
 }
 
-.header-links {
+.navbar-links {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 18px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.header-link a {
+.navbar-link a {
     text-decoration: none;
 }
 
-.header, .hero, .footer {
+header, .footer {
     background-color: #1F2937;
 }
 
-.hero-title, .header-logo, .footer, .action-title, button {
+.hero-title, .navbar-logo, .footer, .action-title, button {
     color: #F9FAF8;
 }
 
-.hero-subtext, .header-link a, .hero-img, .action-subtext {
+.hero-subtext, .navbar-link a, .hero-img, .action-subtext {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #E5E7EB;
 }
 
 .hero {
-    align-self: center;
     display: flex;
-    justify-content: center;
-    gap: 36px;
-    padding: 100px 190px;
-    margin-bottom: 54px;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 0;
+
 }
 
 .hero-title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 
 .hero-subtext {
@@ -63,9 +70,9 @@ body {
 }
 
 .hero-img {
-    width: 450px;
-    height: 200px;
-    background-color: gray;
+    width: 460px;
+    height: 240px;
+    background-color: #6d707c;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -77,8 +84,8 @@ button {
     font-weight: 900;
     background-color: #3882F6;
     border: 0;
-    border-radius: 6px;
-    padding: 8px 20px;
+    border-radius: 8px;
+    padding: 8px 36px;
 }
 
 .random-info {
