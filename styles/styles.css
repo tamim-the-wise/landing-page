@@ -113,7 +113,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px 250px;
+    padding: 100px 250px;
 }
 
 .quote {
@@ -155,5 +155,5 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 40px 0;
 }
